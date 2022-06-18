@@ -1,0 +1,74 @@
+body {
+    background-color: #FF5F58;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 85vh;
+    flex-direction: column;
+}
+.tab_layout {
+    display: table;
+    width: fit-content;
+}
+.tab_header {
+    background-color: #FFFFFF;
+    opacity: 41%;
+    width: fit-content;
+    float: left;
+}
+.tab_header_active {
+    background-color: #FFFFFF;
+    opacity: 98%;
+    width: fit-content;
+    float: left;
+}
+.tab_title {
+    font-family: 'Karla', sans-serif;
+    font-size: 1em;
+    color: #FF5F58;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.timer {
+    font-family: Karla, sans-serif;
+    font-size: 5em;
+    color: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.button {
+    background-color: #FFFFFF;
+    height: fit-content;
+    width: fit-content;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 30px;
+    background: #fff;
+	border-color: #fff;
+    border: none;
+}
+.button_txt {
+    font-size: 1.5em;
+    color: #FF5F58;
+    font-family: Karla, sans-serif;
+}
+.material-symbols-rounded {
+    visibility: hidden;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 600,
+     'GRAD' 0,
+    'opsz' 48;
+    color: #FFFFFF;
+    font-size: large;
+    margin-top: 20px;
+}
+.credit {
+    font-family: Karla, sans-serif;
+    font-size: 22;
+    float: right;
+    padding-right: 20px;
+}
