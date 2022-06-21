@@ -69,6 +69,6 @@ body {
 .credit {
     font-family: Karla, sans-serif;
     font-size: 22;
-    float: right;
-    padding-right: 9%;
+    margin: auto;
+    width: fit-content;
 }
